@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <script src = "script.js" defer = "true"></script>
+</head>
+<body>
+    <h1>The Basic Calculator</h1>
+    <div class = "calculator-container">
+        <div class = "display-container"> 
+            <div class = "upper-display"></div>
+            <div class = "lower-display">0</div>
+        </div>
+        <div class = "clear-delete-container">
+            <button class = "wide-button" id = "clear">CLEAR</button>
+            <button class = "wide-button" id = "delete">DELETE</button>
+        </div>
+        <div class = "number-operator-container">
+            <div class = "number-operator-row">
+                <button class = "normal-button numeric-button" name = "7">7</button>
+                <button class = "normal-button numeric-button" name = "8">8</button>
+                <button class = "normal-button numeric-button" name = "9">9</button>
+                <button class = "normal-button operator-button" name = "/"><span>&#247</span></button>
+            </div>
+            <div class = "number-operator-row">
+                <button class = "normal-button numeric-button" name = "4">4</button>
+                <button class = "normal-button numeric-button" name = "5">5</button>
+                <button class = "normal-button numeric-button" name = "6">6</button>
+                <button class = "normal-button operator-button" name = "x">x</button>
+            </div>
+            <div class = "number-operator-row">
+                <button class = "normal-button numeric-button" name = "1">1</button>
+                <button class = "normal-button numeric-button" name = "2">2</button>
+                <button class = "normal-button numeric-button" name = "3">3</button>
+                <button class = "normal-button operator-button" name = "-">-</button>
+            </div>
+            <div class = "number-operator-row">
+                <button class = "normal-button dot-button" name = "dot">.</button>
+                <button class = "normal-button numeric-button" name = "0">0</button>
+                <button class = "normal-button equals-button" name = "=">=</button>
+                <button class = "normal-button operator-button" name = "+">+</button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>
+          Copyright ©
+          <script>
+            document.write(new Date().getFullYear())
+          </script>
+          shaungannon3
+        </p>
+        <a href="https://github.com/shaungannon3" target="_blank"><img src = "github.png" alt = "github icon"></a>
+    </footer>
+</body>
+</html>
